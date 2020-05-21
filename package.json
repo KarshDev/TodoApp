@@ -1,0 +1,26 @@
+{
+	"name": "todoapp",
+	"version": "1.0.0",
+	"description": "Simple Todo App with DB",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/KarshDev/TodoApp.git"
+	},
+	"author": "Abolade Kasope",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/KarshDev/TodoApp/issues"
+	},
+	"homepage": "https://github.com/KarshDev/TodoApp#readme",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.9.14"
+	}
+}
